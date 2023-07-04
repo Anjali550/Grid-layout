@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(9, 9, 9);
+}
+
+.container {
+    width: 70vw;
+    height: 80vh;
+    margin: 40px auto;
+
+    display: grid;
+    gap: 15px;
+    grid-template-columns: 2fr 1fr;
+}
+
+.one {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 15px;
+}
+
+.two {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+.three {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+}
+
+
+.girl1{
+    background:url(./image/g-1.png) ;
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.girl2{
+    background:url(./image/photo2.png) ;
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.girl3{
+    background-image:url(./image/photo4.png) ;
+    /* background-size: cover;  */
+    /* object-fit:none;   */
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.boy1{
+    background:url(./image/photo1.png) ;
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.boy2{
+    background:url(./image/photo6.png) ;
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.int{
+    background:url(./image/interior.png) ;
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
